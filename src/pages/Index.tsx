@@ -236,11 +236,6 @@ const Index = () => {
         </div>
         <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-background/30"></div>
         
-        <div className="absolute top-10 left-10 text-6xl animate-pulse">🌾</div>
-        <div className="absolute top-20 right-20 text-5xl animate-pulse" style={{ animationDelay: '1s' }}>🍯</div>
-        <div className="absolute bottom-20 left-20 text-5xl animate-pulse" style={{ animationDelay: '2s' }}>🍞</div>
-        <div className="absolute bottom-10 right-10 text-6xl animate-pulse" style={{ animationDelay: '1.5s' }}>🫙</div>
-        
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-4xl mx-auto text-center animate-fade-in">
             <h2 className="text-7xl md:text-8xl font-bold mb-8 text-white drop-shadow-lg" style={{ fontFamily: 'Caveat, cursive' }}>
