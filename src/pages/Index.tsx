@@ -235,8 +235,8 @@ const Index = () => {
         
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-4xl mx-auto text-center animate-fade-in">
-            <h2 className="text-8xl md:text-9xl mb-8 drop-shadow-lg" style={{ color: '#D4A574', fontFamily: 'Pacifico, cursive', fontWeight: 'normal' }}>
-              J&M Market
+            <h2 className="text-8xl md:text-9xl mb-8 drop-shadow-lg" style={{ color: '#D4A574', fontWeight: 'bold' }}>
+              𝐉&𝐌 𝐌𝐚𝐫𝐤𝐞𝐭
             </h2>
             <p className="text-2xl md:text-3xl mb-10 text-white font-semibold drop-shadow-md">
               Натуральні продукти від українських виробників. Мед, варення, соління, свіжа випічка — все що любить ваша родина
