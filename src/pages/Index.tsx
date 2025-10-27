@@ -230,21 +230,28 @@ const Index = () => {
         </div>
       </header>
 
-      <section id="home" className="relative bg-gradient-to-br from-primary/10 via-background to-secondary/10 py-20 overflow-hidden">
-        <div className="absolute inset-0 opacity-5">
-          <img src="https://cdn.poehali.dev/files/7f9f5caa-543e-47c7-b835-c4a76c537b8b.png" alt="" className="w-full h-full object-cover" />
+      <section id="home" className="relative bg-gradient-to-br from-[#005BBB] via-[#0066CC] to-[#FFD700] py-32 overflow-hidden">
+        <div className="absolute inset-0 opacity-20">
+          <img src="https://cdn.poehali.dev/projects/288f571d-8f1f-4e0a-84aa-63f37e20b4e8/files/ab6904d8-2eb0-4aa6-a5ed-0efed8c27964.jpg" alt="" className="w-full h-full object-cover" />
         </div>
+        <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-background/30"></div>
+        
+        <div className="absolute top-10 left-10 text-6xl animate-pulse">🌾</div>
+        <div className="absolute top-20 right-20 text-5xl animate-pulse" style={{ animationDelay: '1s' }}>🍯</div>
+        <div className="absolute bottom-20 left-20 text-5xl animate-pulse" style={{ animationDelay: '2s' }}>🍞</div>
+        <div className="absolute bottom-10 right-10 text-6xl animate-pulse" style={{ animationDelay: '1.5s' }}>🫙</div>
+        
         <div className="container mx-auto px-4 relative z-10">
-          <div className="max-w-3xl mx-auto text-center animate-fade-in">
-            <h2 className="text-6xl md:text-7xl font-bold mb-6 text-primary">
+          <div className="max-w-4xl mx-auto text-center animate-fade-in">
+            <h2 className="text-7xl md:text-8xl font-bold mb-8 text-white drop-shadow-lg" style={{ fontFamily: 'Caveat, cursive' }}>
               Смак справжньої України
             </h2>
-            <p className="text-xl md:text-2xl mb-8 text-foreground/80">
+            <p className="text-2xl md:text-3xl mb-10 text-white font-semibold drop-shadow-md">
               Натуральні продукти від українських виробників. Мед, варення, соління, свіжа випічка — все що любить ваша родина
             </p>
-            <Button size="lg" className="text-lg px-8" onClick={() => scrollToSection('catalog')}>
+            <Button size="lg" className="text-xl px-12 py-6 bg-[#FFD700] hover:bg-[#FFC700] text-black font-bold shadow-2xl hover:scale-105 transition-transform" onClick={() => scrollToSection('catalog')}>
               Переглянути каталог
-              <Icon name="ArrowRight" size={20} className="ml-2" />
+              <Icon name="ArrowRight" size={24} className="ml-2" />
             </Button>
           </div>
         </div>
