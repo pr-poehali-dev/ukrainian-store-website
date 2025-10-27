@@ -129,15 +129,12 @@ const Index = () => {
       <header className="sticky top-0 z-50 bg-white/95 backdrop-blur-sm border-b border-border shadow-sm">
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
-            <div className="flex items-center gap-3">
+            <div>
               <img 
                 src="https://cdn.poehali.dev/files/221388ec-d43b-4426-942b-e7c6acbc107d.png" 
                 alt="J&M Market" 
-                className="h-16 w-16 object-contain"
+                className="h-20 w-20 object-contain"
               />
-              <h1 className="text-4xl font-bold" style={{ color: '#D4A574', fontFamily: 'Pacifico, cursive' }}>
-                J&M Market
-              </h1>
             </div>
             
             <nav className="hidden md:flex gap-6">
@@ -238,8 +235,8 @@ const Index = () => {
         
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-4xl mx-auto text-center animate-fade-in">
-            <h2 className="text-7xl md:text-8xl font-bold mb-8 text-white drop-shadow-lg" style={{ fontFamily: 'Caveat, cursive' }}>
-              Смак справжньої України
+            <h2 className="text-7xl md:text-8xl font-bold mb-8 text-white drop-shadow-lg" style={{ fontFamily: 'Pacifico, cursive', color: '#D4A574' }}>
+              J&M Market
             </h2>
             <p className="text-2xl md:text-3xl mb-10 text-white font-semibold drop-shadow-md">
               Натуральні продукти від українських виробників. Мед, варення, соління, свіжа випічка — все що любить ваша родина
