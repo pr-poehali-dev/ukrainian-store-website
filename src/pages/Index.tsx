@@ -235,7 +235,7 @@ const Index = () => {
         
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-4xl mx-auto text-center animate-fade-in">
-            <h2 className="text-7xl md:text-8xl font-bold mb-8 text-white drop-shadow-lg" style={{ fontFamily: 'Pacifico, cursive', color: '#D4A574' }}>
+            <h2 className="text-7xl md:text-8xl mb-8 drop-shadow-lg" style={{ fontFamily: 'Pacifico, cursive', color: '#D4A574', fontWeight: 'normal' }}>
               J&M Market
             </h2>
             <p className="text-2xl md:text-3xl mb-10 text-white font-semibold drop-shadow-md">
