@@ -133,9 +133,11 @@ const Index = () => {
               <img 
                 src="https://cdn.poehali.dev/files/221388ec-d43b-4426-942b-e7c6acbc107d.png" 
                 alt="J&M Market" 
-                className="h-12 w-12 object-contain"
+                className="h-16 w-16 object-contain"
               />
-              <h1 className="text-3xl font-bold" style={{ color: '#D4A574' }}>J&M Market</h1>
+              <h1 className="text-4xl font-bold" style={{ color: '#D4A574', fontFamily: 'Caveat, cursive' }}>
+                J&M <span style={{ fontStyle: 'italic' }}>Market</span>
+              </h1>
             </div>
             
             <nav className="hidden md:flex gap-6">
@@ -383,9 +385,11 @@ const Index = () => {
             <img 
               src="https://cdn.poehali.dev/files/221388ec-d43b-4426-942b-e7c6acbc107d.png" 
               alt="J&M Market" 
-              className="h-16 w-16 object-contain"
+              className="h-20 w-20 object-contain"
             />
-            <h3 className="text-2xl font-bold" style={{ color: '#D4A574' }}>J&M Market</h3>
+            <h3 className="text-3xl font-bold" style={{ color: '#D4A574', fontFamily: 'Caveat, cursive' }}>
+              J&M <span style={{ fontStyle: 'italic' }}>Market</span>
+            </h3>
           </div>
           <p className="text-sm opacity-80">
             © 2024 J&M Market. Смак справжньої України
