@@ -235,13 +235,9 @@ const Index = () => {
         
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-4xl mx-auto text-center animate-fade-in">
-            <div className="mb-8">
-              <img 
-                src="https://cdn.poehali.dev/files/221388ec-d43b-4426-942b-e7c6acbc107d.png" 
-                alt="J&M Market" 
-                className="mx-auto w-64 md:w-96 object-contain drop-shadow-2xl"
-              />
-            </div>
+            <h2 className="text-8xl md:text-9xl mb-8 drop-shadow-lg" style={{ color: '#D4A574', fontWeight: 'normal' }}>
+              <span style={{ fontFamily: 'Pacifico, cursive' }}>J&M</span> <span style={{ fontFamily: 'Pacifico, cursive', fontStyle: 'italic' }}>Market</span>
+            </h2>
             <p className="text-2xl md:text-3xl mb-10 text-white font-semibold drop-shadow-md">
               Натуральні продукти від українських виробників. Мед, варення, соління, свіжа випічка — все що любить ваша родина
             </p>
