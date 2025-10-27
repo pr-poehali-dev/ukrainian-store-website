@@ -135,8 +135,8 @@ const Index = () => {
                 alt="J&M Market" 
                 className="h-16 w-16 object-contain"
               />
-              <h1 className="text-4xl font-bold" style={{ color: '#D4A574', fontFamily: 'Caveat, cursive' }}>
-                J&M <span style={{ fontStyle: 'italic' }}>Market</span>
+              <h1 className="text-4xl font-bold" style={{ color: '#D4A574', fontFamily: 'Pacifico, cursive' }}>
+                J&M Market
               </h1>
             </div>
             
@@ -387,8 +387,8 @@ const Index = () => {
               alt="J&M Market" 
               className="h-20 w-20 object-contain"
             />
-            <h3 className="text-3xl font-bold" style={{ color: '#D4A574', fontFamily: 'Caveat, cursive' }}>
-              J&M <span style={{ fontStyle: 'italic' }}>Market</span>
+            <h3 className="text-3xl font-bold" style={{ color: '#D4A574', fontFamily: 'Pacifico, cursive' }}>
+              J&M Market
             </h3>
           </div>
           <p className="text-sm opacity-80">
