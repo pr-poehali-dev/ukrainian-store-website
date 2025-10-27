@@ -129,11 +129,13 @@ const Index = () => {
       <header className="sticky top-0 z-50 bg-white/95 backdrop-blur-sm border-b border-border shadow-sm">
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
-            <div className="flex items-center gap-2">
-              <div className="w-10 h-10 bg-gradient-to-br from-primary to-secondary rounded-full flex items-center justify-center">
-                <span className="text-2xl">🌾</span>
-              </div>
-              <h1 className="text-3xl font-bold text-primary">J&M Market</h1>
+            <div className="flex items-center gap-3">
+              <img 
+                src="https://cdn.poehali.dev/files/221388ec-d43b-4426-942b-e7c6acbc107d.png" 
+                alt="J&M Market" 
+                className="h-12 w-12 object-contain"
+              />
+              <h1 className="text-3xl font-bold" style={{ color: '#D4A574' }}>J&M Market</h1>
             </div>
             
             <nav className="hidden md:flex gap-6">
@@ -375,11 +377,15 @@ const Index = () => {
         </div>
       </section>
 
-      <footer className="bg-primary text-primary-foreground py-8">
+      <footer className="bg-black text-white py-8">
         <div className="container mx-auto px-4 text-center">
-          <div className="flex items-center justify-center gap-2 mb-4">
-            <span className="text-3xl">🌾</span>
-            <h3 className="text-2xl font-bold">J&M Market</h3>
+          <div className="flex items-center justify-center gap-3 mb-4">
+            <img 
+              src="https://cdn.poehali.dev/files/221388ec-d43b-4426-942b-e7c6acbc107d.png" 
+              alt="J&M Market" 
+              className="h-16 w-16 object-contain"
+            />
+            <h3 className="text-2xl font-bold" style={{ color: '#D4A574' }}>J&M Market</h3>
           </div>
           <p className="text-sm opacity-80">
             © 2024 J&M Market. Смак справжньої України
